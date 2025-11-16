@@ -4,241 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>$25 Off Woom Kids Bikes – Lightweight & Fun</title>
-  <meta name="description" content="Get $25 off your first Woom bike! Designed for safety, comfort, and fun — perfect for kids ages 1.5 to 14. Claim your referral discount today!">
-  <meta name="keywords" content="Woom bikes, kids bikes, Woom discount, $25 off Woom, lightweight bike, balance bike">
-
-  <!-- ✅ Google Analytics (replace with your ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2063XK24X"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L2063XK24X');
-  </script>
-
-  <!-- ✅ Structured Data for SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    "name": "Woom Kids' Bikes",
-    "image": "https://downtown-mag.com/wp-content/uploads/sites/7/2025/08/laufrad-test-quick-guide-kids-bikes_Intro_DOWNTOWN-WEB-9713.jpg",
-    "description": "Award-winning lightweight kids' bikes with a $25 off referral offer.",
-    "brand": {"@type": "Brand", "name": "Woom"},
-    "offers": {
-      "@type": "Offer",
-      "url": "https://share.woom.com/woomdiscount ",
-      "priceCurrency": "USD",
-      "price": "25.00",
-      "availability": "https://schema.org/InStock"
-    }
-  }
-  </script>
-
+  <meta name="description" content="Click the button to go to Woom’s website and receive $25 off your first Woom bike purchase.">
   <style>
-    :root {
-      --primary: #f53b57;
-      --light: #fff;
-      --dark: #222;
-      --gray: #777;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      color: var(--dark);
-      background: #f9fafb;
-      line-height: 1.5;
-    }
-
-    header {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #f7f9fb;
+      color: #222;
       text-align: center;
-      background: linear-gradient(to right, var(--primary), #ff6b81);
-      color: var(--light);
-      padding: 3rem 1rem;
+      padding: 80px 20px;
     }
-
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+      color: #333;
     }
-
-    header p {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
+    p.lead {
+      font-size: 1.2em;
+      margin-bottom: 1.8em;
     }
-
-    .button {
+    a.button {
       display: inline-block;
-      background: var(--light);
-      color: var(--primary);
+      background-color: #f53b57;
+      color: #fff;
       text-decoration: none;
-      padding: 0.9rem 2rem;
+      padding: 16px 40px;
+      font-size: 1.3em;
       border-radius: 50px;
-      font-size: 1.1rem;
-      font-weight: bold;
-      transition: transform 0.2s, background 0.3s;
+      transition: background-color 0.3s, transform 0.2s;
     }
-
-    .button:hover {
-      background: #fce4e8;
+    a.button:hover {
+      background-color: #d82e48;
       transform: scale(1.05);
     }
-
-    .hero {
-      text-align: center;
-      background: var(--light);
-      padding: 2rem 1rem;
-    }
-
-    .hero img {
-      width: 100%;
-      max-width: 500px;
-      border-radius: 16px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
-
-    section h2 {
-      color: var(--primary);
-      margin-bottom: 0.8rem;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-top: 1.5rem;
-    }
-
-    .feature {
-      background: var(--light);
-      border-radius: 16px;
-      padding: 1.2rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-
-    .testimonial {
-      background: var(--light);
-      border-radius: 12px;
-      margin-top: 2rem;
-      padding: 1.5rem;
-      font-style: italic;
-      color: var(--gray);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
-
-    .social {
-      margin-top: 2rem;
-    }
-
-    .social p {
-      margin-bottom: 0.5rem;
-      color: var(--dark);
-      font-weight: 600;
-    }
-
-    .social a {
-      display: inline-block;
-      margin: 0 0.5rem;
-      text-decoration: none;
-      color: var(--primary);
-      font-size: 1.3rem;
-      transition: transform 0.2s ease;
-    }
-
-    .social a:hover {
-      transform: scale(1.2);
-    }
-
-    footer {
-      background: var(--dark);
-      color: #ccc;
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* Responsive grid for larger screens */
-    @media (min-width: 700px) {
-      .features {
-        grid-template-columns: repeat(3, 1fr);
-      }
-      header h1 { font-size: 2.5rem; }
+    p.note {
+      margin-top: 2.2em;
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>Get $25 Off Your First Woom Bike</h1>
-    <p>Lightweight, safe, and built for every stage of your child’s cycling journey.</p>
-    <a class="button" href="https://share.woom.com/woomdiscount " target="_blank" rel="noopener noreferrer">
-      Claim $25 Off
-    </a>
-  </header>
-
-  <div class="hero">
-    <img src="https://downtown-mag.com/wp-content/uploads/sites/7/2025/08/laufrad-test-quick-guide-kids-bikes_Intro_DOWNTOWN-WEB-9713.jpg" alt="Woom kids bike">
-  </div>
-
-  <section>
-    <h2>Why Families Choose Woom</h2>
-    <div class="features">
-      <div class="feature">
-        <h3>🌟 Ultra-Lightweight</h3>
-        <p>Up to 40% lighter than standard kids’ bikes — making it easier to learn, balance, and have fun.</p>
-      </div>
-      <div class="feature">
-        <h3>🚲 Ergonomic Fit</h3>
-        <p>Each Woom bike is designed for a child’s proportions, ensuring comfort and confidence with every ride.</p>
-      </div>
-      <div class="feature">
-        <h3>💡 Built to Grow</h3>
-        <p>From balance to geared models, Woom bikes evolve with your child’s skills and size.</p>
-      </div>
-    </div>
-
-    <div class="testimonial">
-      “Our daughter went from hesitant to fearless within a week on her Woom 2! Couldn’t recommend it more.”
-      <br><strong>— James, Oregon</strong>
-    </div>
-
-    <div class="social">
-      <p>Share this offer:</p>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" target="_blank" aria-label="Share on Facebook">📘</a>
-      <a href="https://twitter.com/intent/tweet?text=Get%20$25%20off%20a%20Woom%20Bike!&url=https://yourwebsite.com" target="_blank" aria-label="Share on X (Twitter)">🐦</a>
-      <a href="https://www.instagram.com/" target="_blank" aria-label="Share on Instagram">📸</a>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 | This site shares a referral link for $25 off your first Woom bike.</p>
-    <p>Official store: <a href="https://us.woombikes.com" target="_blank">us.woombikes.com</a></p>
-  </footer>
+  <h1>Get $25 Off Your First Woom Bike</h1>
+  <p class="lead">Click the button below to go to Woom’s website and your $25 discount will automatically apply on your first bike purchase.</p>
+  <a class="button" href="https://us.woombikes.com?ref=YOUR_REFERRAL_CODE" target="_blank" rel="noopener noreferrer">
+    Claim Your $25 Discount
+  </a>
+  <p class="note">Note: If you have an ad-blocker enabled, it may interfere with the referral tracking. Please disable it or try again if the discount doesn’t apply.</p>
 </body>
 </html>
-
-
-
-
